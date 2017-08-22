@@ -1,7 +1,6 @@
 [package]
-name = "simple-conrod"
+name = "simple-chat"
 version = "0.1.0"
 authors = ["yelikdev@gmail.com <Kiley Owen>"]
 
 [dependencies]
-conrod = "0.54.0"
