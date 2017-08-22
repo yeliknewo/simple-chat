@@ -5,6 +5,8 @@ use std::net::{TcpListener, TcpStream, ToSocketAddrs};
 
 pub fn start_server<A: ToSocketAddrs>(addr: A) -> IoResult<()> {
 
+    println!("Starting Server");
+
     let listener = TcpListener::bind(addr)?;
 
     for stream in listener.incoming() {
